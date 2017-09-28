@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/application-exit-4.png</file>
+        <file>icons/document-open-3.png</file>
+        <file>icons/document-save-5.png</file>
+        <file>icons/edit-add-3.png</file>
+        <file>icons/help-about-3.png</file>
+        <file>icons/water-32.png</file>
+        <file>icons/edit-remove-2.png</file>
+        <file>icons/water-48.png</file>
+    </qresource>
+</RCC>
