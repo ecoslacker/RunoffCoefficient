@@ -30,6 +30,9 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
+    QIcon winIcon(":/icons/icons/16x16/river.png");
+    setWindowIcon(winIcon);
+
     // Connect actions
     connect(ui->actionAbout,     SIGNAL(triggered(bool)), SLOT(about()));
     connect(ui->actionAdd,       SIGNAL(triggered(bool)), SLOT(addRow()));
@@ -172,11 +175,11 @@ void MainWindow::calculate()
     // Get precipitation, strings will convert to 0
     precipitation = ui->precipitation->text().toFloat();
     qDebug() << "Precipitation:" << precipitation;
-    if (precipitation == 0) {
+    if (precipitation <= 0) {
         QMessageBox msgBox;
         msgBox.setWindowTitle("Error");
         msgBox.setIcon(QMessageBox::Warning);
-        msgBox.setText("La precipitación debe ser un valor numérico diferente de cero.");
+        msgBox.setText("La precipitación debe ser un valor numérico mayor a cero.");
         msgBox.exec();
         return;
     }
@@ -195,11 +198,11 @@ void MainWindow::calculate()
         // Try to convert text to area, strings will convert to 0
         float area = itemArea->text().toFloat();
         qDebug() << "Area:" << area;
-        if (area == 0) {
+        if (area <= 0) {
             QMessageBox msgBox;
             msgBox.setWindowTitle("Error");
             msgBox.setIcon(QMessageBox::Warning);
-            msgBox.setText("El área debe ser un valor numérico diferente de cero.");
+            msgBox.setText("El área debe ser un valor numérico mayor a cero.");
             msgBox.exec();
             return;
         } else {

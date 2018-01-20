@@ -42,3 +42,6 @@ FORMS    += mainwindow.ui \
 
 RESOURCES += \
     resources.qrc
+
+RC_ICONS = river.ico
+ICON = river.icns

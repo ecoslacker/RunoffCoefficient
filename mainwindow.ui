@@ -170,7 +170,7 @@
   <action name="actionOpen">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/icons/icons/document-open-3.png</normaloff>:/icons/icons/document-open-3.png</iconset>
+     <normaloff>:/icons/icons/32x32/document-open-3.png</normaloff>:/icons/icons/32x32/document-open-3.png</iconset>
    </property>
    <property name="text">
     <string>A&amp;brir</string>
@@ -185,7 +185,7 @@
   <action name="actionSave">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/icons/icons/document-save-5.png</normaloff>:/icons/icons/document-save-5.png</iconset>
+     <normaloff>:/icons/icons/32x32/document-save-5.png</normaloff>:/icons/icons/32x32/document-save-5.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Guardar</string>
@@ -200,7 +200,7 @@
   <action name="actionExit">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/icons/icons/application-exit-4.png</normaloff>:/icons/icons/application-exit-4.png</iconset>
+     <normaloff>:/icons/icons/32x32/application-exit-4.png</normaloff>:/icons/icons/32x32/application-exit-4.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Salir</string>
@@ -215,7 +215,7 @@
   <action name="actionAbout">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/icons/icons/help-about-3.png</normaloff>:/icons/icons/help-about-3.png</iconset>
+     <normaloff>:/icons/icons/32x32/help-about-3.png</normaloff>:/icons/icons/32x32/help-about-3.png</iconset>
    </property>
    <property name="text">
     <string>Acerca &amp;de ...</string>
@@ -227,7 +227,7 @@
   <action name="actionAdd">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/icons/icons/edit-add-3.png</normaloff>:/icons/icons/edit-add-3.png</iconset>
+     <normaloff>:/icons/icons/32x32/edit-add-3.png</normaloff>:/icons/icons/32x32/edit-add-3.png</iconset>
    </property>
    <property name="text">
     <string>A&amp;gregar</string>
@@ -242,7 +242,7 @@
   <action name="actionRemove">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/icons/icons/edit-remove-2.png</normaloff>:/icons/icons/edit-remove-2.png</iconset>
+     <normaloff>:/icons/icons/32x32/edit-remove-2.png</normaloff>:/icons/icons/32x32/edit-remove-2.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Eliminar</string>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>500</width>
-    <height>400</height>
+    <width>537</width>
+    <height>377</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="resources.qrc">
-    <normaloff>:/icons/icons/help-about-3.png</normaloff>:/icons/icons/help-about-3.png</iconset>
+    <normaloff>:/icons/icons/32x32/help-about-3.png</normaloff>:/icons/icons/32x32/help-about-3.png</iconset>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_3">
    <property name="leftMargin">
@@ -41,16 +41,40 @@
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
-        <widget class="QLabel" name="label_2">
-         <property name="text">
-          <string>Irriapps - Runoff (0.5-Beta)</string>
-         </property>
-        </widget>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Irriapps - Runoff</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>Versión 0.5 (beta)</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
        </item>
        <item>
         <widget class="QLabel" name="label">
          <property name="text">
-          <string>Copyright (C) 2017 Eduardo Jiménez</string>
+          <string>Copyright (C) 2017-2018 Eduardo Jiménez &lt;ecoslacker@irriapps.com&gt;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -77,6 +101,19 @@
         </widget>
        </item>
        <item>
+        <widget class="QLabel" name="label_irriapps">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Más información en: &lt;a href=&quot;http://www.irriapps.com/runoff-coefficient&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;www.irriapps.com/runoff-coefficient&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <spacer name="verticalSpacer">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -84,7 +121,7 @@
          <property name="sizeHint" stdset="0">
           <size>
            <width>20</width>
-           <height>135</height>
+           <height>60</height>
           </size>
          </property>
         </spacer>
@@ -100,15 +137,16 @@
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_irriapps">
+        <widget class="QLabel" name="label_4">
          <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://www.irriapps.com/runoff-coefficient&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;www.irriapps.com&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>Icons by: Open Icon Library</string>
          </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-         <property name="openExternalLinks">
-          <bool>true</bool>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>&lt;div&gt;River icon made by &lt;a href=&quot;http://www.freepik.com&quot; title=&quot;Freepik&quot;&gt;Freepik&lt;/a&gt; from &lt;a href=&quot;https://www.flaticon.com/&quot; title=&quot;Flaticon&quot;&gt;www.flaticon.com&lt;/a&gt; is licensed by &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot; title=&quot;Creative Commons BY 3.0&quot; target=&quot;_blank&quot;&gt;CC 3.0 BY&lt;/a&gt;&lt;/div&gt;</string>
          </property>
         </widget>
        </item>

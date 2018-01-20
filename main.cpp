@@ -25,6 +25,10 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
+
+    QIcon appIcon(":/icons/icons/64x64/river.png");
+    a.setWindowIcon(appIcon);
+
     MainWindow w;
     w.show();
 

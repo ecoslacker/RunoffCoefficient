@@ -1,12 +1,19 @@
 <RCC>
     <qresource prefix="/icons">
-        <file>icons/application-exit-4.png</file>
-        <file>icons/document-open-3.png</file>
-        <file>icons/document-save-5.png</file>
-        <file>icons/edit-add-3.png</file>
-        <file>icons/help-about-3.png</file>
         <file>icons/water-32.png</file>
-        <file>icons/edit-remove-2.png</file>
         <file>icons/water-48.png</file>
+        <file>icons/16x16/river.png</file>
+        <file>icons/32x32/application-exit-4.png</file>
+        <file>icons/32x32/document-open-3.png</file>
+        <file>icons/32x32/document-save-5.png</file>
+        <file>icons/32x32/edit-add-3.png</file>
+        <file>icons/32x32/edit-remove-2.png</file>
+        <file>icons/32x32/help-about-3.png</file>
+        <file>icons/32x32/river.png</file>
+        <file>icons/64x64/river.png</file>
+        <file>icons/128x128/river.png</file>
+        <file>icons/256x256/river.png</file>
+        <file>icons/512x512/river.png</file>
+        <file>river.icns</file>
     </qresource>
 </RCC>
